@@ -4,9 +4,27 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
-
+function vowelCount(x) {
+    let count = 0
+    let vowelsFound = '';
+    
+    for (let i = 0; i < x.length; i++) {
+        const element = x[i];
+        if (element === "a" ||
+            element === "e" ||
+            element === "i" ||
+            element === "o" ||
+            element === "u") {
+                count += 1, vowelsFound += element;
+            }
+        }
+    const result = count + ' ' + vowelsFound
+    return result;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
+const vowelsOfWord = vowelCount(word)
+console.log(vowelsOfWord);
 
 
 
