@@ -11,7 +11,6 @@ function salute(x) {
 
 
 // Invoca la funzione qui e stampa il risultato in console
-
 const welcome = salute(userName);
 console.log(welcome);
 

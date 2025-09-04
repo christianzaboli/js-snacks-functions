@@ -12,8 +12,6 @@ function firstLettersOf(array) {
     for (let i = 0; i < array.length; i++) {
         const elements = array[i];
         newArray.push(elements.charAt())
-
-        console.log(elements, newArray);
     }
     return newArray
 }
@@ -21,6 +19,6 @@ function firstLettersOf(array) {
 
 // Invoca la funzione qui e stampa il risultato in console
 const initialsNames = firstLettersOf(names)
-console.log(newwarray);
+console.log("Risultato finale:", initialsNames);
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]

@@ -5,6 +5,7 @@ const word = 'javascript';
 
 // Dichiara la funzione qui.
 function vowelCount(x) {
+    x = x.toLowerCase();
     let count = 0
     let vowelsFound = '';
     
